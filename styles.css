@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+.container{
+    display: grid;
+    grid-template-columns: repeat(10,100px);
+    
+    
+    
+}
+.items{
+    background-color:green;
+    color: white;
+    border: 1px solid;
+    padding: 10px;
+    
+    
+}
+#box1{
+ grid-column: 1/11;
+}
+#box2{
+    grid-row: 2/6;
+}
+#box3{
+    grid-column:2/4;
+}
+#box4{
+    grid-column: 4/11;
+    
+}
+#box5{
+    grid-column: 2/9;
+    
+}
+#box6{
+    grid-column: 9/11;
+    
+}
+#box7{
+    grid-column: 2/4;
+    
+}
+#box8{
+    grid-column: 4/9;
+
+}
+#box9{
+    grid-column: 9/11;
+    
+}
+#box10{
+    grid-column: 2/11;
+}
